@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Drishti is an AI-powered vision augmentation system for real-time object detection, OCR, face recognition, crowd awareness and spatial audio assistance." />
+    <meta name="theme-color" content="#050505" />
+    <meta property="og:title" content="Drishti | AI Vision Augmentation" />
+    <meta property="og:description" content="Real-time AI vision assistance powered by Computer Vision, YOLOv8, OCR and Spatial Audio." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/drishti-crowd-live.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Drishti | AI Vision Augmentation</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-label="Drishti hero">
+        <div class="camera-field" aria-hidden="true">
+          <div class="scanline"></div>
+          <div class="box box-person"><span>Person 0.98</span></div>
+          <div class="box box-door"><span>Door 0.91</span></div>
+          <div class="box box-sign"><span>Exit sign 0.95</span></div>
+          <div class="box box-chair"><span>Chair 0.89</span></div>
+          <div class="depth-ring ring-one"></div>
+          <div class="depth-ring ring-two"></div>
+        </div>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a class="brand" href="#">DRISHTI</a>
+          <div class="nav-links">
+            <a href="#radar">Radar</a>
+            <a href="#demo">Live View</a>
+            <a href="#why">Why</a>
+            <a href="#github">Demo</a>
+          </div>
+        </nav>
+
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">AI-powered vision augmentation system</p>
+            <h1>SEE THE WORLD DIFFERENTLY.</h1>
+            <p class="hero-copy">
+              Real-time AI vision assistance powered by Computer Vision, YOLOv8, OCR and Spatial Audio.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="#demo">Try Drishti <span aria-hidden="true">-&gt;</span></a>
+              <a class="ghost-button" href="#ai">Explore System</a>
+            </div>
+            <div class="stats" aria-label="Live performance stats">
+              <article><strong>25+</strong><span>FPS</span></article>
+              <article><strong>&lt;200ms</strong><span>Latency</span></article>
+              <article><strong>15+</strong><span>Objects Tracked</span></article>
+              <article><strong>99%</strong><span>OCR Accuracy</span></article>
+            </div>
+          </div>
+
+          <div class="hero-device" aria-label="Drishti live app preview">
+            <div class="orbit-label label-live">LIVE / ONE-ON-ONE</div>
+            <div class="orbit-label label-audio">Spatial alert: 2m front</div>
+            <div class="phone-frame hero-phone">
+              <img src="assets/drishti-crowd-live.png" alt="Drishti Explore live crowd detection UI with verified friend recognition" fetchpriority="high" />
+            </div>
+            <div class="vision-chip chip-one">Person Detected</div>
+            <div class="vision-chip chip-two">Gesture Analysis</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai" class="section split-section">
+        <div>
+          <p class="eyebrow">AI that sees for you</p>
+          <h2>See hazards,<br /><span>understand scenes.</span></h2>
+        </div>
+        <div class="feature-grid">
+          <article class="glass-card">
+            <span class="card-mark">01</span>
+            <h3>Object Tracking</h3>
+            <p>YOLOv8 + ByteTrack persistent tracking of people, vehicles, obstacles and hazards.</p>
+          </article>
+          <article class="glass-card">
+            <span class="card-mark">02</span>
+            <h3>OCR Reader</h3>
+            <p>Read signs, books, labels and menus instantly with high-contrast voice output.</p>
+          </article>
+          <article class="glass-card">
+            <span class="card-mark">03</span>
+            <h3>Face Recognition</h3>
+            <p>Recognize trusted people and announce their presence with spatial direction.</p>
+          </article>
+          <article class="glass-card">
+            <span class="card-mark">04</span>
+            <h3>Emotion Detection</h3>
+            <p>Understand facial expressions during conversations and social moments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Built for real life</p>
+          <h2>Designed for moments that matter.</h2>
+        </div>
+        <div class="life-grid">
+          <article class="scenario crosswalk">
+            <div class="scenario-visual"><span>Traffic approaching from the left.</span></div>
+            <h3>Crosswalk Detection</h3>
+          </article>
+          <article class="scenario indoor">
+            <div class="scenario-visual"><span>Escalator ahead. 5 meters.</span></div>
+            <h3>Indoor Navigation</h3>
+          </article>
+          <article class="scenario social">
+            <div class="scenario-visual"><span>Akshay appears happy. Maintaining eye contact.</span></div>
+            <h3>Social Interaction</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section product-section">
+        <div class="section-heading">
+          <p class="eyebrow">Existing app, elevated</p>
+          <h2>Turn utility screens into a premium AI command center.</h2>
+        </div>
+        <div class="product-showcase">
+          <article class="screen-card large-screen">
+            <img src="assets/drishti-crowd-live.png" alt="Explore mode live crowd detection screen" loading="lazy" decoding="async" />
+            <div>
+              <span>Explore Mode</span>
+              <h3>Live camera intelligence</h3>
+              <p>Keep the real camera feed, but frame it as a spatial AI interface with status chips, detection confidence and an accessible capture action.</p>
+            </div>
+          </article>
+          <article class="screen-card">
+            <img src="assets/social-radar.jpeg" alt="Social Assistant radar modes screen" loading="lazy" decoding="async" />
+            <div>
+              <span>Social Assistant</span>
+              <h3>Radar modes</h3>
+              <p>Identity, emotion, crowd and conversation modes become a polished Drishti Radar system.</p>
+            </div>
+          </article>
+          <article class="screen-card">
+            <img src="assets/social-compact.jpeg" alt="Database management screen in Drishti" loading="lazy" decoding="async" />
+            <div>
+              <span>Trusted Circle</span>
+              <h3>People memory</h3>
+              <p>Enrollment and trusted contacts can feel secure, calm and investor-ready.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="radar" class="section radar-section">
+        <div class="section-heading">
+          <p class="eyebrow">Drishti Radar</p>
+          <h2>Social awareness, translated instantly.</h2>
+        </div>
+        <div class="radar-grid">
+          <article><span>ID</span><h3>Identity Scan</h3><p>Recognize family and friends.</p></article>
+          <article><span>EM</span><h3>Emotion Engine</h3><p>Detect emotions and engagement.</p></article>
+          <article><span>CI</span><h3>Crowd Intelligence</h3><p>Estimate people nearby.</p></article>
+          <article><span>CG</span><h3>Conversation Guide</h3><p>Analyze body language and gestures.</p></article>
+        </div>
+      </section>
+
+      <section class="section tech-section" aria-label="Powered by AI">
+        <p class="eyebrow">Powered by cutting-edge AI</p>
+        <h2>Real-time intelligence in motion.</h2>
+        <div class="pills">
+          <span>YOLOv8</span>
+          <span>ByteTrack</span>
+          <span>Computer Vision</span>
+          <span>Spatial Audio</span>
+          <span>React Native</span>
+          <span>Real-Time Inference</span>
+        </div>
+      </section>
+
+      <section id="demo" class="demo-section" aria-label="See what Drishti sees">
+        <div class="demo-copy">
+          <p class="eyebrow">See what Drishti sees</p>
+          <h2>Live spatial understanding.</h2>
+        </div>
+        <div class="mockup">
+          <div class="mock-camera portrait-demo">
+            <img src="assets/drishti-crowd-live.png" alt="Drishti live camera feed recognizing Harsh in a crowd" loading="lazy" decoding="async" />
+            <div class="caption">
+              Drishti recognizes Harsh, estimates a 15+ person crowd, and turns gesture context into an instant spoken alert.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="section why-section">
+        <div>
+          <p class="eyebrow">Why Drishti?</p>
+          <h2>Built for accessibility.<br />Powered by intelligence.<br /><span>Designed for independence.</span></h2>
+        </div>
+        <div class="why-grid">
+          <article><h3>Real-Time Alerts</h3><p>Haptic + voice feedback.</p></article>
+          <article><h3>Offline Capabilities</h3><p>Works with limited connectivity.</p></article>
+          <article><h3>Accessibility First</h3><p>Gesture-driven interface.</p></article>
+          <article><h3>Fast Response</h3><p>Sub-200ms latency.</p></article>
+        </div>
+      </section>
+
+      <section id="github" class="section github-section" aria-label="GitHub demo">
+        <div class="github-panel">
+          <p class="eyebrow">Actual demo</p>
+          <h2>Explore the working Drishti build.</h2>
+          <p>
+            View the source code, setup instructions, and implementation details for the AI vision assistant on GitHub.
+          </p>
+          <a class="github-button" href="https://github.com/Akshad265k/Drishti" target="_blank" rel="noopener noreferrer">
+            Open GitHub Demo <span aria-hidden="true">-&gt;</span>
+          </a>
+          <div class="repo-card" aria-label="GitHub repository">
+            <span>github.com</span>
+            <strong>Akshad265k / Drishti</strong>
+            <small>Computer Vision | OCR | Spatial Audio | Accessibility</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-label="Try Drishti">
+        <div class="network" aria-hidden="true"></div>
+        <h2>DON'T JUST SEE.<br /><span>UNDERSTAND.</span></h2>
+        <a class="primary-button" href="https://github.com/Akshad265k/Drishti" target="_blank" rel="noopener noreferrer">Try Drishti <span aria-hidden="true">-&gt;</span></a>
+      </section>
+    </main>
+    <footer class="footer">
+      <span>Drishti</span>
+      <a href="https://github.com/Akshad265k/Drishti" target="_blank" rel="noopener noreferrer">GitHub Demo</a>
+    </footer>
+  </body>
+</html>

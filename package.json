@@ -1,0 +1,23 @@
+{
+  "name": "drishti-vision-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deploy-ready static landing page for Drishti, an AI-powered vision augmentation system.",
+  "scripts": {
+    "start": "npx serve .",
+    "preview": "npx serve .",
+    "check": "npx html-validate index.html"
+  },
+  "keywords": [
+    "drishti",
+    "accessibility",
+    "computer-vision",
+    "ai",
+    "landing-page"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "html-validate": "^9.5.0",
+    "serve": "^14.2.4"
+  }
+}
